@@ -9,3 +9,5 @@ setup-librawspeed.sh: build LibRaw from scatch, ubunbtu 13.04, devel packets fro
 	setup buildsystems (CMake from darktable)
 	make 
 	show sample executabled in LibRaw/bin
+
+README.gitolite-on-synology: syno wiki slightly outdated.  gitolite3 ok on my DS212j
