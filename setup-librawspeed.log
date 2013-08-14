@@ -1,0 +1,324 @@
+Cloning into 'LibRaw'...
+remote: Counting objects: 3707, done.
+remote: Compressing objects: 100% (1031/1031), done.
+remote: Total 3707 (delta 2675), reused 3693 (delta 2665)
+Receiving objects: 100% (3707/3707), 2.46 MiB | 944 KiB/s, done.
+Resolving deltas: 100% (2675/2675), done.
+Cloning into 'LibRaw-demosaic-pack-GPL2'...
+remote: Counting objects: 119, done.
+remote: Compressing objects: 100% (55/55), done.
+remote: Total 119 (delta 77), reused 105 (delta 64)
+Receiving objects: 100% (119/119), 170.83 KiB | 225 KiB/s, done.
+Resolving deltas: 100% (77/77), done.
+Cloning into 'LibRaw-demosaic-pack-GPL3'...
+remote: Counting objects: 121, done.
+remote: Compressing objects: 100% (47/47), done.
+remote: Total 121 (delta 82), reused 112 (delta 74)
+Receiving objects: 100% (121/121), 72.86 KiB, done.
+Resolving deltas: 100% (82/82), done.
+A    RawSpeed/RawSpeed.kdevelop
+A    RawSpeed/Doxyfile
+A    RawSpeed/include
+A    RawSpeed/include/iconv.h
+A    RawSpeed/include/libxml
+A    RawSpeed/include/libxml/xmlschemastypes.h
+A    RawSpeed/include/libxml/xmlwin32version.h
+A    RawSpeed/include/libxml/nanohttp.h
+A    RawSpeed/include/libxml/parser.h
+A    RawSpeed/include/libxml/xmlwriter.h
+A    RawSpeed/include/libxml/relaxng.h
+A    RawSpeed/include/libxml/nanoftp.h
+A    RawSpeed/include/libxml/xmlversion.h
+A    RawSpeed/include/libxml/debugXML.h
+A    RawSpeed/include/libxml/xpointer.h
+A    RawSpeed/include/libxml/catalog.h
+A    RawSpeed/include/libxml/SAX2.h
+A    RawSpeed/include/libxml/xmlsave.h
+A    RawSpeed/include/libxml/HTMLparser.h
+A    RawSpeed/include/libxml/dict.h
+A    RawSpeed/include/libxml/hash.h
+A    RawSpeed/include/libxml/xmlexports.h
+A    RawSpeed/include/libxml/encoding.h
+A    RawSpeed/include/libxml/xmlmemory.h
+A    RawSpeed/include/libxml/threads.h
+A    RawSpeed/include/libxml/SAX.h
+A    RawSpeed/include/libxml/xmlautomata.h
+A    RawSpeed/include/libxml/tree.h
+A    RawSpeed/include/libxml/uri.h
+A    RawSpeed/include/libxml/valid.h
+A    RawSpeed/include/libxml/schemasInternals.h
+A    RawSpeed/include/libxml/schematron.h
+A    RawSpeed/include/libxml/xpathInternals.h
+A    RawSpeed/include/libxml/xmlschemas.h
+A    RawSpeed/include/libxml/c14n.h
+A    RawSpeed/include/libxml/xmlmodule.h
+A    RawSpeed/include/libxml/xmlunicode.h
+A    RawSpeed/include/libxml/xmlerror.h
+A    RawSpeed/include/libxml/chvalid.h
+A    RawSpeed/include/libxml/xinclude.h
+A    RawSpeed/include/libxml/list.h
+A    RawSpeed/include/libxml/xmlregexp.h
+A    RawSpeed/include/libxml/parserInternals.h
+A    RawSpeed/include/libxml/pattern.h
+A    RawSpeed/include/libxml/globals.h
+A    RawSpeed/include/libxml/xmlreader.h
+A    RawSpeed/include/libxml/DOCBparser.h
+A    RawSpeed/include/libxml/HTMLtree.h
+A    RawSpeed/include/libxml/entities.h
+A    RawSpeed/include/libxml/xpath.h
+A    RawSpeed/include/libxml/xlink.h
+A    RawSpeed/include/libxml/xmlstring.h
+A    RawSpeed/include/libxml/xmlIO.h
+A    RawSpeed/include/libjpeg
+A    RawSpeed/include/libjpeg/jmorecfg.h
+A    RawSpeed/include/libjpeg/jpeglib.h
+A    RawSpeed/include/libjpeg/jconfig.h
+A    RawSpeed/include/libjpeg/turbojpeg.h
+A    RawSpeed/include/libjpeg/jerror.h
+A    RawSpeed/include/sched.h
+A    RawSpeed/include/pthread.h
+A    RawSpeed/RawSpeed.sln
+A    RawSpeed/copying.txt
+A    RawSpeed/lib
+A    RawSpeed/lib/iconv.lib
+A    RawSpeed/lib/pthreadVC2.lib
+A    RawSpeed/lib/turbojpeg-static.lib
+A    RawSpeed/lib/libxml2.lib
+A    RawSpeed/data
+A    RawSpeed/data/showcameras.xsl
+A    RawSpeed/data/cameras.xml
+A    RawSpeed/RawSpeed
+A    RawSpeed/RawSpeed/StdAfx.h
+A    RawSpeed/RawSpeed/Point.h
+A    RawSpeed/RawSpeed/Rw2Decoder.cpp
+A    RawSpeed/RawSpeed/RawImage.h
+A    RawSpeed/RawSpeed/DngDecoderSlices.cpp
+A    RawSpeed/RawSpeed/FileReader.cpp
+A    RawSpeed/RawSpeed/PefDecoder.h
+A    RawSpeed/RawSpeed/NikonDecompressor.h
+A    RawSpeed/RawSpeed/ByteStreamSwap.cpp
+A    RawSpeed/RawSpeed/Cr2Decoder.cpp
+A    RawSpeed/RawSpeed/CameraMetadataException.h
+A    RawSpeed/RawSpeed/RawDecoder.cpp
+A    RawSpeed/RawSpeed/TiffIFD.h
+A    RawSpeed/RawSpeed/BitPumpMSB.cpp
+A    RawSpeed/RawSpeed/TiffEntryBE.h
+A    RawSpeed/RawSpeed/LJpegDecompressor.cpp
+A    RawSpeed/RawSpeed/BitPumpMSB32.cpp
+A    RawSpeed/RawSpeed/TiffIFDBE.h
+A    RawSpeed/RawSpeed/StdAfx.cpp
+A    RawSpeed/RawSpeed/PentaxDecompressor.h
+A    RawSpeed/RawSpeed/LJpegPlain.h
+A    RawSpeed/RawSpeed/Camera.h
+A    RawSpeed/RawSpeed/NefDecoder.cpp
+A    RawSpeed/RawSpeed/CameraSensorInfo.cpp
+A    RawSpeed/RawSpeed/BitPumpPlain.cpp
+A    RawSpeed/RawSpeed/Rw2Decoder.h
+A    RawSpeed/RawSpeed/SrwDecoder.h
+A    RawSpeed/RawSpeed/FileReader.h
+A    RawSpeed/RawSpeed/TiffEntry.cpp
+A    RawSpeed/RawSpeed/TiffParser.h
+A    RawSpeed/RawSpeed/TiffIFD.cpp
+A    RawSpeed/RawSpeed/ByteStreamSwap.h
+A    RawSpeed/RawSpeed/TiffEntryBE.cpp
+A    RawSpeed/RawSpeed/Cr2Decoder.h
+A    RawSpeed/RawSpeed/TiffParserException.cpp
+A    RawSpeed/RawSpeed/LJpegPlain.cpp
+A    RawSpeed/RawSpeed/PentaxDecompressor.cpp
+A    RawSpeed/RawSpeed/BitPumpJPEG.cpp
+A    RawSpeed/RawSpeed/BitPumpMSB.h
+A    RawSpeed/RawSpeed/Common.cpp
+A    RawSpeed/RawSpeed/TiffTag.h
+A    RawSpeed/RawSpeed/TiffParserOlympus.cpp
+A    RawSpeed/RawSpeed/DngDecoder.cpp
+A    RawSpeed/RawSpeed/CameraMetaData.h
+A    RawSpeed/RawSpeed/RawDecoderException.cpp
+A    RawSpeed/RawSpeed/SrwDecoder.cpp
+A    RawSpeed/RawSpeed/CameraSensorInfo.h
+A    RawSpeed/RawSpeed/NefDecoder.h
+A    RawSpeed/RawSpeed/TiffParser.cpp
+A    RawSpeed/RawSpeed/RawParser.cpp
+A    RawSpeed/RawSpeed/BitPumpPlain.h
+A    RawSpeed/RawSpeed/TiffParserHeaderless.h
+A    RawSpeed/RawSpeed/RawSpeed.cpp
+A    RawSpeed/RawSpeed/BlackArea.h
+A    RawSpeed/RawSpeed/RawImageDataFloat.cpp
+A    RawSpeed/RawSpeed/OrfDecoder.cpp
+A    RawSpeed/RawSpeed/TiffEntry.h
+A    RawSpeed/RawSpeed/RawImageDataU16.cpp
+A    RawSpeed/RawSpeed/FileMap.h
+A    RawSpeed/RawSpeed/ArwDecoder.h
+A    RawSpeed/RawSpeed/ByteStream.h
+A    RawSpeed/RawSpeed/FileIOException.cpp
+A    RawSpeed/RawSpeed/IOException.cpp
+A    RawSpeed/RawSpeed/ColorFilterArray.h
+A    RawSpeed/RawSpeed/CameraMetaData.cpp
+A    RawSpeed/RawSpeed/TiffParserException.h
+A    RawSpeed/RawSpeed/DngOpcodes.h
+A    RawSpeed/RawSpeed/BitPumpJPEG.h
+A    RawSpeed/RawSpeed/RawSpeed.vcproj
+A    RawSpeed/RawSpeed/RawImage.cpp
+A    RawSpeed/RawSpeed/Common.h
+A    RawSpeed/RawSpeed/PefDecoder.cpp
+A    RawSpeed/RawSpeed/RawDecoderException.h
+A    RawSpeed/RawSpeed/DngDecoder.h
+A    RawSpeed/RawSpeed/TiffParserOlympus.h
+A    RawSpeed/RawSpeed/NikonDecompressor.cpp
+A    RawSpeed/RawSpeed/BlackArea.cpp
+A    RawSpeed/RawSpeed/TiffParserHeaderless.cpp
+A    RawSpeed/RawSpeed/DngDecoderSlices.h
+A    RawSpeed/RawSpeed/CameraMetadataException.cpp
+A    RawSpeed/RawSpeed/RawParser.h
+A    RawSpeed/RawSpeed/FileMap.cpp
+A    RawSpeed/RawSpeed/ByteStream.cpp
+A    RawSpeed/RawSpeed/ArwDecoder.cpp
+A    RawSpeed/RawSpeed/OrfDecoder.h
+A    RawSpeed/RawSpeed/TiffIFDBE.cpp
+A    RawSpeed/RawSpeed/ColorFilterArray.cpp
+A    RawSpeed/RawSpeed/RawDecoder.h
+A    RawSpeed/RawSpeed/DngOpcodes.cpp
+A    RawSpeed/RawSpeed/Camera.cpp
+A    RawSpeed/RawSpeed/IOException.h
+A    RawSpeed/RawSpeed/FileIOException.h
+A    RawSpeed/RawSpeed/LJpegDecompressor.h
+A    RawSpeed/RawSpeed/BitPumpMSB32.h
+A    RawSpeed/credits.txt
+A    RawSpeed/RawSpeed.kdevelop.filelist
+ U   RawSpeed
+Checked out revision 560.
+patching file RawSpeed/Common.cpp
+~/repos/librawspeed/RawSpeed ~/repos/librawspeed
+-- The C compiler identification is GNU 4.7.3
+-- The CXX compiler identification is GNU 4.7.3
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found suitable version "2.9.0", minimum required is "2.6") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/goetz/repos/librawspeed/RawSpeed
+Scanning dependencies of target rawspeed
+[  2%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/CameraSensorInfo.cpp.o
+[  4%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawParser.cpp.o
+[  6%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ArwDecoder.cpp.o
+[  8%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpJPEG.cpp.o
+[ 10%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpMSB32.cpp.o
+[ 13%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpMSB.cpp.o
+[ 15%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpPlain.cpp.o
+[ 17%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BlackArea.cpp.o
+[ 19%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ByteStream.cpp.o
+[ 21%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ByteStreamSwap.cpp.o
+[ 23%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Camera.cpp.o
+[ 26%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/CameraMetaData.cpp.o
+[ 28%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/CameraMetadataException.cpp.o
+[ 30%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ColorFilterArray.cpp.o
+[ 32%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Common.cpp.o
+[ 34%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Cr2Decoder.cpp.o
+[ 36%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngOpcodes.cpp.o
+[ 39%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoder.cpp.o
+[ 41%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoderSlices.cpp.o
+[ 43%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/FileIOException.cpp.o
+[ 45%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/FileMap.cpp.o
+[ 47%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/FileReader.cpp.o
+[ 50%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/IOException.cpp.o
+[ 52%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegDecompressor.cpp.o
+[ 54%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegPlain.cpp.o
+[ 56%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NefDecoder.cpp.o
+[ 58%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NikonDecompressor.cpp.o
+[ 60%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/OrfDecoder.cpp.o
+[ 63%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PefDecoder.cpp.o
+[ 65%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PentaxDecompressor.cpp.o
+[ 67%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawDecoder.cpp.o
+[ 69%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawDecoderException.cpp.o
+[ 71%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImage.cpp.o
+[ 73%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Rw2Decoder.cpp.o
+[ 76%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/StdAfx.cpp.o
+[ 78%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffEntryBE.cpp.o
+[ 80%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffEntry.cpp.o
+[ 82%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffIFDBE.cpp.o
+[ 84%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffIFD.cpp.o
+[ 86%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParser.cpp.o
+[ 89%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserException.cpp.o
+[ 91%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserHeaderless.cpp.o
+[ 93%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserOlympus.cpp.o
+[ 95%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataU16.cpp.o
+[ 97%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataFloat.cpp.o
+[100%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/SrwDecoder.cpp.o
+Linking CXX static library librawspeed.a
+[100%] Built target rawspeed
+~/repos/librawspeed
+~/repos/librawspeed/LibRaw ~/repos/librawspeed
+patching file Makefile.devel
+./internal/preprocess.pl -N -DCOMMON dcraw/dcraw.c >internal/dcraw_common.cpp
+./internal/preprocess.pl -DFILEIO dcraw/dcraw.c >internal/dcraw_fileio.cpp
+g++ -c -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3  -o object/dcraw_common.o internal/dcraw_common.cpp
+./rsxml2c.sh ../RawSpeed/data/cameras.xml > RawSpeed/rawspeed_xmldata.cpp
+g++ -c -DLIBRAW_NOTHREADS   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_cxx.o src/libraw_cxx.cpp
+In file included from ../RawSpeed/RawSpeed/StdAfx.h:86:0,
+                 from src/libraw_cxx.cpp:40:
+../RawSpeed/RawSpeed/Common.h:189:18: warning: comma at end of enumerator list [-pedantic]
+g++ -c -DLIBRAW_NOTHREADS   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_datastream.o src/libraw_datastream.cpp
+g++ -c -DLIBRAW_NOTHREADS    -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_c_api.o src/libraw_c_api.cpp
+g++ -c -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3  -o object/dcraw_fileio.o internal/dcraw_fileio.cpp
+dcraw/dcraw.c: In member function ‘void LibRaw::subtract(const char*)’:
+dcraw/dcraw.c:4208:32: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+g++ -w -c -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -I../LibRaw-demosaic-pack-GPL2 -I../LibRaw-demosaic-pack-GPL3 -o object/demosaic_packs.o internal/demosaic_packs.cpp
+rm -f lib/libraw.a
+ar crv lib/libraw.a object/dcraw_common.o object/libraw_cxx.o object/libraw_datastream.o object/libraw_c_api.o object/dcraw_fileio.o object/demosaic_packs.o
+a - object/dcraw_common.o
+a - object/libraw_cxx.o
+a - object/libraw_datastream.o
+a - object/libraw_c_api.o
+a - object/dcraw_fileio.o
+a - object/demosaic_packs.o
+ranlib lib/libraw.a
+g++ -c -pthread   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/dcraw_common_mt.o internal/dcraw_common.cpp
+g++ -c  -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_cxx_mt.o src/libraw_cxx.cpp
+In file included from ../RawSpeed/RawSpeed/StdAfx.h:86:0,
+                 from src/libraw_cxx.cpp:40:
+../RawSpeed/RawSpeed/Common.h:189:18: warning: comma at end of enumerator list [-pedantic]
+g++ -c  -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_datastream_mt.o src/libraw_datastream.cpp
+g++ -c  -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_c_api_mt.o src/libraw_c_api.cpp
+g++  -c -pthread   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/dcraw_fileio_mt.o internal/dcraw_fileio.cpp
+dcraw/dcraw.c: In member function ‘void LibRaw::subtract(const char*)’:
+dcraw/dcraw.c:4208:32: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+g++ -w -c -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -I../LibRaw-demosaic-pack-GPL2 -I../LibRaw-demosaic-pack-GPL3 -o object/demosaic_packs_mt.o internal/demosaic_packs.cpp
+rm -f lib/libraw_r.a
+ar crv lib/libraw_r.a object/dcraw_common_mt.o object/libraw_cxx_mt.o object/libraw_datastream_mt.o object/libraw_c_api_mt.o object/dcraw_fileio_mt.o object/demosaic_packs_mt.o
+a - object/dcraw_common_mt.o
+a - object/libraw_cxx_mt.o
+a - object/libraw_datastream_mt.o
+a - object/libraw_c_api_mt.o
+a - object/dcraw_fileio_mt.o
+a - object/demosaic_packs_mt.o
+ranlib lib/libraw_r.a
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/raw-identify samples/raw-identify.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/simple_dcraw samples/simple_dcraw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_emu samples/dcraw_emu.cpp -L./lib -lraw_r  -lm -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+gcc  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_half samples/dcraw_half.c -L./lib -lraw  -lm -lstdc++  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+gcc -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/half_mt samples/half_mt.c -L./lib -lraw_r  -lm -lstdc++  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/mem_image samples/mem_image.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/unprocessed_raw samples/unprocessed_raw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/4channels samples/4channels.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/multirender_test samples/multirender_test.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/postprocessing_benchmark samples/postprocessing_benchmark.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -w -O4 -DLIBRAW_NOTHREADS -DNO_JPEG -DNO_LCMS -DNO_JASPER -o bin/dcraw_dist dcraw/dcraw.c -lm  
+~/repos/librawspeed
+total 30908
+-rwxrwxr-x 1 goetz goetz 3113809 Aug 13 19:18 4channels
+-rwxrwxr-x 1 goetz goetz  355101 Aug 13 19:18 dcraw_dist
+-rwxrwxr-x 1 goetz goetz 3171244 Aug 13 19:18 dcraw_emu
+-rwxrwxr-x 1 goetz goetz 3130431 Aug 13 19:18 dcraw_half
+-rwxrwxr-x 1 goetz goetz 3140084 Aug 13 19:18 half_mt
+-rwxrwxr-x 1 goetz goetz 3113860 Aug 13 19:18 mem_image
+-rwxrwxr-x 1 goetz goetz 3113794 Aug 13 19:18 multirender_test
+-rwxrwxr-x 1 goetz goetz 3117115 Aug 13 19:18 postprocessing_benchmark
+-rwxrwxr-x 1 goetz goetz 3118575 Aug 13 19:18 raw-identify
+-rwxrwxr-x 1 goetz goetz 3113476 Aug 13 19:18 simple_dcraw
+-rwxrwxr-x 1 goetz goetz 3133142 Aug 13 19:18 unprocessed_raw
+
