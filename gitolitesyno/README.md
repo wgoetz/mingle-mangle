@@ -1,1 +1,1 @@
-recipe to install gitolite3 on synolgy NAS
+### recipe to install gitolite3 on synolgy NAS
