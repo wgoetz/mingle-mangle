@@ -3,11 +3,6 @@ mingle-mangle
 or this-and-that, assorted things, conglomerate. scripts, snippets,readme's,cheats
 
 
-setup-librawspeed.sh: build LibRaw from scatch, ubunbtu 13.04, devel packets from distro.
-	get repos LibRaw+demosaicpacks,Rawspeed 
-	patch accordingly
-	setup buildsystems (CMake from darktable)
-	make 
-	show sample executabled in LibRaw/bin
+[build libraw with rawspeed](librawspeed/README.md)
 
-README.gitolite-on-synology: syno wiki slightly outdated.  gitolite3 ok on my DS212j
+[gitolite3 on synology NAS](gitolitesyno/README.md)
