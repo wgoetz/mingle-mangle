@@ -1,21 +1,6 @@
 Cloning into 'LibRaw'...
-remote: Counting objects: 3707, done.
-remote: Compressing objects: 100% (1031/1031), done.
-remote: Total 3707 (delta 2675), reused 3693 (delta 2665)
-Receiving objects: 100% (3707/3707), 2.46 MiB | 944 KiB/s, done.
-Resolving deltas: 100% (2675/2675), done.
 Cloning into 'LibRaw-demosaic-pack-GPL2'...
-remote: Counting objects: 119, done.
-remote: Compressing objects: 100% (55/55), done.
-remote: Total 119 (delta 77), reused 105 (delta 64)
-Receiving objects: 100% (119/119), 170.83 KiB | 225 KiB/s, done.
-Resolving deltas: 100% (77/77), done.
 Cloning into 'LibRaw-demosaic-pack-GPL3'...
-remote: Counting objects: 121, done.
-remote: Compressing objects: 100% (47/47), done.
-remote: Total 121 (delta 82), reused 112 (delta 74)
-Receiving objects: 100% (121/121), 72.86 KiB, done.
-Resolving deltas: 100% (82/82), done.
 A    RawSpeed/RawSpeed.kdevelop
 A    RawSpeed/Doxyfile
 A    RawSpeed/include
@@ -187,7 +172,7 @@ A    RawSpeed/RawSpeed.kdevelop.filelist
  U   RawSpeed
 Checked out revision 560.
 patching file RawSpeed/Common.cpp
-~/repos/librawspeed/RawSpeed ~/repos/librawspeed
+~/github/mingle-mangle/librawspeed/RawSpeed ~/github/mingle-mangle/librawspeed
 -- The C compiler identification is GNU 4.7.3
 -- The CXX compiler identification is GNU 4.7.3
 -- Check for working C compiler: /usr/bin/cc
@@ -201,7 +186,7 @@ patching file RawSpeed/Common.cpp
 -- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found suitable version "2.9.0", minimum required is "2.6") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/goetz/repos/librawspeed/RawSpeed
+-- Build files have been written to: /home/goetz/github/mingle-mangle/librawspeed/RawSpeed
 Scanning dependencies of target rawspeed
 [  2%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/CameraSensorInfo.cpp.o
 [  4%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawParser.cpp.o
@@ -251,22 +236,17 @@ Scanning dependencies of target rawspeed
 [100%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/SrwDecoder.cpp.o
 Linking CXX static library librawspeed.a
 [100%] Built target rawspeed
-~/repos/librawspeed
-~/repos/librawspeed/LibRaw ~/repos/librawspeed
+~/github/mingle-mangle/librawspeed
+~/github/mingle-mangle/librawspeed/LibRaw ~/github/mingle-mangle/librawspeed
 patching file Makefile.devel
 ./internal/preprocess.pl -N -DCOMMON dcraw/dcraw.c >internal/dcraw_common.cpp
 ./internal/preprocess.pl -DFILEIO dcraw/dcraw.c >internal/dcraw_fileio.cpp
 g++ -c -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3  -o object/dcraw_common.o internal/dcraw_common.cpp
 ./rsxml2c.sh ../RawSpeed/data/cameras.xml > RawSpeed/rawspeed_xmldata.cpp
 g++ -c -DLIBRAW_NOTHREADS   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_cxx.o src/libraw_cxx.cpp
-In file included from ../RawSpeed/RawSpeed/StdAfx.h:86:0,
-                 from src/libraw_cxx.cpp:40:
-../RawSpeed/RawSpeed/Common.h:189:18: warning: comma at end of enumerator list [-pedantic]
 g++ -c -DLIBRAW_NOTHREADS   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_datastream.o src/libraw_datastream.cpp
 g++ -c -DLIBRAW_NOTHREADS    -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_c_api.o src/libraw_c_api.cpp
 g++ -c -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3  -o object/dcraw_fileio.o internal/dcraw_fileio.cpp
-dcraw/dcraw.c: In member function ‘void LibRaw::subtract(const char*)’:
-dcraw/dcraw.c:4208:32: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
 g++ -w -c -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -I../LibRaw-demosaic-pack-GPL2 -I../LibRaw-demosaic-pack-GPL3 -o object/demosaic_packs.o internal/demosaic_packs.cpp
 rm -f lib/libraw.a
 ar crv lib/libraw.a object/dcraw_common.o object/libraw_cxx.o object/libraw_datastream.o object/libraw_c_api.o object/dcraw_fileio.o object/demosaic_packs.o
@@ -279,14 +259,9 @@ a - object/demosaic_packs.o
 ranlib lib/libraw.a
 g++ -c -pthread   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/dcraw_common_mt.o internal/dcraw_common.cpp
 g++ -c  -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_cxx_mt.o src/libraw_cxx.cpp
-In file included from ../RawSpeed/RawSpeed/StdAfx.h:86:0,
-                 from src/libraw_cxx.cpp:40:
-../RawSpeed/RawSpeed/Common.h:189:18: warning: comma at end of enumerator list [-pedantic]
 g++ -c  -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_datastream_mt.o src/libraw_datastream.cpp
 g++ -c  -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_c_api_mt.o src/libraw_c_api.cpp
 g++  -c -pthread   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/dcraw_fileio_mt.o internal/dcraw_fileio.cpp
-dcraw/dcraw.c: In member function ‘void LibRaw::subtract(const char*)’:
-dcraw/dcraw.c:4208:32: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
 g++ -w -c -pthread  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -I../LibRaw-demosaic-pack-GPL2 -I../LibRaw-demosaic-pack-GPL3 -o object/demosaic_packs_mt.o internal/demosaic_packs.cpp
 rm -f lib/libraw_r.a
 ar crv lib/libraw_r.a object/dcraw_common_mt.o object/libraw_cxx_mt.o object/libraw_datastream_mt.o object/libraw_c_api_mt.o object/dcraw_fileio_mt.o object/demosaic_packs_mt.o
@@ -308,17 +283,16 @@ g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -
 g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/multirender_test samples/multirender_test.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
 g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/postprocessing_benchmark samples/postprocessing_benchmark.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
 g++ -w -O4 -DLIBRAW_NOTHREADS -DNO_JPEG -DNO_LCMS -DNO_JASPER -o bin/dcraw_dist dcraw/dcraw.c -lm  
-~/repos/librawspeed
+~/github/mingle-mangle/librawspeed
 total 30908
--rwxrwxr-x 1 goetz goetz 3113809 Aug 13 19:18 4channels
--rwxrwxr-x 1 goetz goetz  355101 Aug 13 19:18 dcraw_dist
--rwxrwxr-x 1 goetz goetz 3171244 Aug 13 19:18 dcraw_emu
--rwxrwxr-x 1 goetz goetz 3130431 Aug 13 19:18 dcraw_half
--rwxrwxr-x 1 goetz goetz 3140084 Aug 13 19:18 half_mt
--rwxrwxr-x 1 goetz goetz 3113860 Aug 13 19:18 mem_image
--rwxrwxr-x 1 goetz goetz 3113794 Aug 13 19:18 multirender_test
--rwxrwxr-x 1 goetz goetz 3117115 Aug 13 19:18 postprocessing_benchmark
--rwxrwxr-x 1 goetz goetz 3118575 Aug 13 19:18 raw-identify
--rwxrwxr-x 1 goetz goetz 3113476 Aug 13 19:18 simple_dcraw
--rwxrwxr-x 1 goetz goetz 3133142 Aug 13 19:18 unprocessed_raw
-
+-rwxrwxr-x 1 goetz goetz 3113825 Aug 17 11:27 4channels
+-rwxrwxr-x 1 goetz goetz  355101 Aug 17 11:27 dcraw_dist
+-rwxrwxr-x 1 goetz goetz 3171260 Aug 17 11:27 dcraw_emu
+-rwxrwxr-x 1 goetz goetz 3130439 Aug 17 11:27 dcraw_half
+-rwxrwxr-x 1 goetz goetz 3140100 Aug 17 11:27 half_mt
+-rwxrwxr-x 1 goetz goetz 3113868 Aug 17 11:27 mem_image
+-rwxrwxr-x 1 goetz goetz 3113810 Aug 17 11:27 multirender_test
+-rwxrwxr-x 1 goetz goetz 3117131 Aug 17 11:27 postprocessing_benchmark
+-rwxrwxr-x 1 goetz goetz 3118591 Aug 17 11:27 raw-identify
+-rwxrwxr-x 1 goetz goetz 3113484 Aug 17 11:27 simple_dcraw
+-rwxrwxr-x 1 goetz goetz 3133150 Aug 17 11:27 unprocessed_raw
