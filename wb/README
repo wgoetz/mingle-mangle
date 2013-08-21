@@ -1,0 +1,10 @@
+
+nef with all wb settings finetune -max 0 +max here.
+./gen-2.all 
+
+
+->  ufraw/wb_presets.c
+
+-> darktable: local stealing... tools/update_wb_presets_from_ufraw-local.sh
+   src/iop local->wb_presets.c
+
