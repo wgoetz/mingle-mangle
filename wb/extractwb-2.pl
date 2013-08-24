@@ -16,25 +16,29 @@ my @NEF = qx!ls *.nef!;
 chomp @NEF;
 
 foreach my $i (@NEF) {
-    my ( $wb, $wbf, $wblev, $mod ) =
-qx!exiftool -s -S -WhiteBalance -WhiteBalanceFineTune -WB_RBLevels -Model $i!;
-    chomp( $wb, $wbf, $wblev, $mod );
+    my ( $wb, $wbfine, $red, $blu, $mod, $wblev ) =
+qx!exiftool -s -S -f -WhiteBalance -WhiteBalanceFineTune -RedBalance -BlueBalance -Model -WB_RBLevels $i!;
+    chomp( $wb, $wbfine, $red, $blu, $mod, $wblev );
 
-    next if $wb =~ /Auto/;
+    #next if $wb =~ /Auto/;
     $wb =~ s/Cool WHT FL/CoolWhiteFluorescent/;
     $wb =~ s/Sunny/DirectSunlight/;
 
     $Fakenr{$wb} = $k if ($k) = $wb =~ /^(\d+)K$/;
 
-    say "$Fakenr{$wb} $wb $wbf $wblev $mod";
-    if ( $mod =~ /D800/ ) {
+    $wbfine.=" 0" if $wbfine =~ /^[^\s]+$/xms; # no second Finetune value for D70 D200 
+
+    $wblev = "$red $blu 1 1" if $wblev=~/\-/;  # no WB_RBLevels for D70  
+
+    say "$Fakenr{$wb} $wb $wbfine $wblev $mod";
+    if ( $mod =~ /D800/ ) { # D800 and D800E have same settings
         if ( $mod =~ /D800E/ ) {
             $mod =~ s/D800E/D800/;
         }
         else {
             $mod =~ s/D800/D800E/;
         }
-        say "$Fakenr{$wb} $wb $wbf $wblev $mod";
+        say "$Fakenr{$wb} $wb $wbfine $wblev $mod";
     }
 
 }
