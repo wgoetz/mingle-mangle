@@ -26,5 +26,12 @@ foreach my $i (@NEF) {
 
     $Fakenr{ $wb } = $k if ($k) = $wb =~ /^(\d+)K$/;
 
+    
     say "$Fakenr{$wb} $wb $wbf $wblev $mod";
+    if ( $mod=~/D800E$/xms){
+	    $mod=~s/D800E/D800/;
+	    say "$Fakenr{$wb} $wb $wbf $wblev $mod";
+    }
+
+
 }

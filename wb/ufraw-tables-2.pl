@@ -3,14 +3,16 @@
 use v5.14;
 my $w;
 while (<>) {
-    my @L = split /\s+/, $_;
+    my (undef,$wb,$wbf,undef,$v1,$v2,undef,undef,$mak,@mod) = split /\s+/, $_;
 
-    if ( $L[1] =~ /^\d/ ) {
-        $w = "\"$L[1]\"";
+    my $m=join " ",@mod;
+
+    if ( $wb =~ /^\d/ ) {
+        $w = "\"$wb\"";
     }
     else {
-        $w = $L[1];
+        $w = $wb;
     }
 
-    say "{ \"NIKON\", \"D800E\", $w, $L[2], { $L[4], 1, $L[5], 0 } },";
+    say "{ \"$mak\", \"$m\", $w, $wbf, { $v1, 1, $v2, 0 } },";
 }
