@@ -1,10 +1,14 @@
+Whitebalance Settings for ufraw, darktable
+
+NIKON D70,200,700,800? maybe more 
 
 nef with all wb settings finetune -max 0 +max here.
 ./gen-2.all 
 
 
-->  ufraw/wb_presets.c
 
+
+-> ufraw/wb_presets.c
 -> darktable: local stealing... tools/update_wb_presets_from_ufraw-local.sh
-   src/iop local->wb_presets.c
+   src/iop/wb_presets.c
 
