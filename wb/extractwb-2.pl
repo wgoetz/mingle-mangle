@@ -4,12 +4,25 @@
 use v5.14;
 
 my %Fakenr = (
-    "Incandescent"         => -900,
-    "CoolWhiteFluorescent" => -800,
-    "DirectSunlight"       => -700,
-    "Flash"                => -600,
-    "Cloudy"               => -500,
-    "Shade"                => -400,
+    "Incandescent" => -900,    #nik
+    "Tungsten"     => -900,    #can
+
+    "SodiumVaporFluorescent"          => -830,    #nik
+    "WarmWhiteFluorescent"            => -820,    #nik
+    "WhiteFluorescent"                => -810,    #nik
+    "CoolWhiteFluorescent"            => -800,    #nik
+    "Fluorescent"                     => -800,    #can
+    "WhiteFluorescent"                => -800,    #can
+    "DayWhiteFluorescent"             => -790,    #nik
+    "DaylightFluorescent"             => -780,    #nik
+    "HighTempMercuryVaporFluorescent" => -770,    #nik
+
+    "DirectSunlight" => -700,                     #nik
+    "Daylight"       => -700,                     #can
+
+    "Flash"  => -600,                             #nik
+    "Cloudy" => -500,                             #nik,can
+    "Shade"  => -400,                             #nik,can
 );
 
 my %RenameWB = (
