@@ -1,5 +1,8 @@
 *~
 *.nef
+*.cr2
+*.CR2
+*.bak
 LibRaw/
 LibRaw-demosaic-pack-GPL2/
 LibRaw-demosaic-pack-GPL3/

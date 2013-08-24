@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+# wolfgang.ztoeg@web.de 20130824
 #
 use v5.14;
 my $w;

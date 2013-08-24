@@ -1,14 +1,16 @@
 Whitebalance Settings for ufraw, darktable
 
-NIKON D70,200,700,800? maybe more 
+D800 fully tested
 
-nef with all wb settings finetune -max 0 +max here.
+NIKON D70,200,700,800? maybe more 
+Canon 5DmkII
+
+nef,cr2 with all wb settings finetune -max 0 +max here or in subdirecties
+
 ./gen-2.all 
 
+output:
+wb.inc for ufraw/wb_presets.c  (-> darktable/tools/)
+wb.sorted to see Auto settings (simple test for other cams)
 
-
-
--> ufraw/wb_presets.c
--> darktable: local stealing... tools/update_wb_presets_from_ufraw-local.sh
-   src/iop/wb_presets.c
 
