@@ -20,7 +20,6 @@ foreach my $i (@NEF) {
 qx!exiftool -s -S -f -WhiteBalance -WhiteBalanceFineTune -RedBalance -BlueBalance -Model -WB_RBLevels $i!;
     chomp( $wb, $wbfine, $red, $blu, $mod, $wblev );
 
-    #next if $wb =~ /Auto/;
     $wb =~ s/Cool WHT FL/CoolWhiteFluorescent/;
     $wb =~ s/Sunny/DirectSunlight/;
 

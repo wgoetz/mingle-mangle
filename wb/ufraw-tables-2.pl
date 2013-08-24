@@ -6,6 +6,8 @@ while (<>) {
     my ( undef, $wb, $wbfine, undef, $red, $blu, undef, undef, $vend, @mod ) =
       split /\s+/, $_;
 
+    next if $wb=~/Auto/;
+
     my $m = join " ", @mod;
 
     if ( $wb =~ /^\d/ ) {
