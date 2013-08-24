@@ -16,15 +16,15 @@ my @NEF = qx!ls *.nef!;
 chomp @NEF;
 
 foreach my $i (@NEF) {
-    my @DAT =
-      qx!exiftool -s -S -WhiteBalance -WhiteBalanceFineTune -WB_RBLevels $i!;
-    chomp @DAT;
+    my ($wb,$wbf,$wblev,$mod) =
+      qx!exiftool -s -S -WhiteBalance -WhiteBalanceFineTune -WB_RBLevels -Model $i!;
+      chomp  ($wb,$wbf,$wblev,$mod);
 
-    next if $DAT[0] =~ /Auto/;
-    $DAT[0] =~ s/Cool WHT FL/CoolWhiteFluorescent/;
-    $DAT[0] =~ s/Sunny/DirectSunlight/;
+    next if $wb =~ /Auto/;
+    $wb =~ s/Cool WHT FL/CoolWhiteFluorescent/;
+    $wb =~ s/Sunny/DirectSunlight/;
 
-    $Fakenr{ $DAT[0] } = $k if ($k) = $DAT[0] =~ /^(\d+)K$/;
+    $Fakenr{ $wb } = $k if ($k) = $wb =~ /^(\d+)K$/;
 
-    say "$Fakenr{$DAT[0]} $DAT[0] $DAT[1] $DAT[2]";
+    say "$Fakenr{$wb} $wb $wbf $wblev $mod";
 }
