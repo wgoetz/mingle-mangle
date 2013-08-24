@@ -3,7 +3,7 @@
 use v5.14;
 my $w;
 while (<>) {
-    my ( undef, $wb, $wbf, undef, $v1, $v2, undef, undef, $mak, @mod ) =
+    my ( undef, $wb, $wbfine, undef, $red, $blu, undef, undef, $vend, @mod ) =
       split /\s+/, $_;
 
     my $m = join " ", @mod;
@@ -15,5 +15,5 @@ while (<>) {
         $w = $wb;
     }
 
-    say "{ \"$mak\", \"$m\", $w, $wbf, { $v1, 1, $v2, 0 } },";
+    say "{ \"$vend\", \"$m\", $w, $wbfine, { $red, 1, $blu, 0 } },";
 }
