@@ -54,3 +54,14 @@ git clone synogit@diskstation:gitolite-admin
 
 
 
+
+----------------------------
+UPDATE to DSM 4.3 20130827:
+
+
+as root:
+ln -s /opt/bin/git* /usr/bin/. 
+ln -s /opt/bin/perl /usr/bin/.
+
+
+
