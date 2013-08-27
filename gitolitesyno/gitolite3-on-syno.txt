@@ -63,5 +63,6 @@ as root:
 ln -s /opt/bin/git* /usr/bin/. 
 ln -s /opt/bin/perl /usr/bin/.
 
-
+in .profile
+comment the PATH= + export
 
