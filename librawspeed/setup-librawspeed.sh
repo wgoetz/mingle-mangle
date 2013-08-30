@@ -82,17 +82,17 @@ popd
 pushd LibRaw
 patch -p1 <<"EOF"
 diff --git a/Makefile.devel b/Makefile.devel
-index 6a2fde1..3a06c13 100644
+index 354ad2e..92bbf39 100644
 --- a/Makefile.devel
 +++ b/Makefile.devel
-@@ -8,16 +8,16 @@ CXX=g++
+@@ -8,13 +8,13 @@ CXX=g++
  CFLAGS=
  
  # RawSpeed Support
 -CFLAGS+=-DUSE_RAWSPEED -I../RawSpeed -I/usr/local/include/libxml2
 -LDADD+=-L../RawSpeed/RawSpeed/release -lrawspeed -L/usr/local/include -ljpeg -lxml2
 +CFLAGS+=-DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2
-+LDADD+=-L../RawSpeed -lrawspeed -ljpeg -lxml2
++LDADD+=-L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2
  RAWSPEED_DATA=../RawSpeed/data/cameras.xml
  
  
@@ -102,12 +102,8 @@ index 6a2fde1..3a06c13 100644
 +#CXX=g++48
  CFLAGS+= -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp
  # Haswell:
--CFLAGS+=-march=core-avx2 -mtune=core-avx2 -mavx2
-+#CFLAGS+=-march=core-avx2 -mtune=core-avx2 -mavx2
- 
- 
- # LCMS support
-@@ -26,12 +26,12 @@ CFLAGS+=-march=core-avx2 -mtune=core-avx2 -mavx2
+ #CFLAGS+=-march=core-avx2 -mtune=core-avx2 -mavx2
+@@ -26,12 +26,12 @@ CFLAGS+= -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp
  #LDADD+=-L/usr/local/lib -llcms
  
  # Jasper support for RedCine
