@@ -5,6 +5,6 @@ or this-and-that, assorted things, conglomerate. scripts, snippets,readme's,chea
 
 [build libraw with rawspeed](librawspeed/README.md)
 
-[gitolite3 on synology NAS](gitolitesyno/README.md)
+[synology NAS](synology/README.md)
 
 [whitebalance includes for ufraw/darktable](wb/README.md) 

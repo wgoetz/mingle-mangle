@@ -1,0 +1,38 @@
+Updating dd9928a..374414b
+Fast-forward
+ dcraw_foveon.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+Already up-to-date.
+Updating 7939c6c..4ccf2c0
+Updating '.':
+U    data/cameras.xml
+Updated to revision 571.
+make: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make[1]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make[2]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make[2]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+[100%] Built target rawspeed
+make[1]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/LibRaw'
+./rsxml2c.sh ../RawSpeed/data/cameras.xml > RawSpeed/rawspeed_xmldata.cpp
+g++ -c -DLIBRAW_NOTHREADS   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_cxx.o src/libraw_cxx.cpp
+rm -f lib/libraw.a
+ar crv lib/libraw.a object/dcraw_common.o object/libraw_cxx.o object/libraw_datastream.o object/libraw_c_api.o object/dcraw_fileio.o object/demosaic_packs.o
+a - object/dcraw_common.o
+a - object/libraw_cxx.o
+a - object/libraw_datastream.o
+a - object/libraw_c_api.o
+a - object/dcraw_fileio.o
+a - object/demosaic_packs.o
+ranlib lib/libraw.a
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/raw-identify samples/raw-identify.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/simple_dcraw samples/simple_dcraw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_emu samples/dcraw_emu.cpp -L./lib -lraw_r  -lm -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+gcc  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_half samples/dcraw_half.c -L./lib -lraw  -lm -lstdc++  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/mem_image samples/mem_image.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/unprocessed_raw samples/unprocessed_raw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/4channels samples/4channels.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/multirender_test samples/multirender_test.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/postprocessing_benchmark samples/postprocessing_benchmark.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
+make: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/LibRaw'
