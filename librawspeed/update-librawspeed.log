@@ -1,15 +1,55 @@
-Updating dd9928a..374414b
-Fast-forward
- dcraw_foveon.c | 6 ++++++
- 1 file changed, 6 insertions(+)
 Already up-to-date.
-Updating 7939c6c..4ccf2c0
+Already up-to-date.
+Updating 7939c6c..40ef0d6
 Updating '.':
 U    data/cameras.xml
-Updated to revision 571.
+U    RawSpeed/ByteStreamSwap.cpp
+U    RawSpeed/ByteStreamSwap.h
+U    RawSpeed/CameraMetaData.h
+U    RawSpeed/ByteStream.h
+U    RawSpeed/CameraMetaData.cpp
+U    RawSpeed/DngOpcodes.h
+U    RawSpeed/ByteStream.cpp
+U    RawSpeed/Camera.cpp
+Updated to revision 578.
 make: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
 make[1]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
 make[2]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+Scanning dependencies of target rawspeed
+make[2]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make[2]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+[  2%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawParser.cpp.o
+[  4%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ArwDecoder.cpp.o
+[  6%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpJPEG.cpp.o
+[  8%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpMSB32.cpp.o
+[ 10%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpMSB.cpp.o
+[ 13%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpPlain.cpp.o
+[ 15%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ByteStream.cpp.o
+[ 17%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ByteStreamSwap.cpp.o
+[ 19%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Camera.cpp.o
+[ 21%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/CameraMetaData.cpp.o
+[ 23%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Cr2Decoder.cpp.o
+[ 26%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngOpcodes.cpp.o
+[ 28%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoder.cpp.o
+[ 30%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoderSlices.cpp.o
+[ 32%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegDecompressor.cpp.o
+[ 34%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegPlain.cpp.o
+[ 36%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NefDecoder.cpp.o
+[ 39%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NikonDecompressor.cpp.o
+[ 41%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/OrfDecoder.cpp.o
+[ 43%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PefDecoder.cpp.o
+[ 45%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PentaxDecompressor.cpp.o
+[ 47%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawDecoder.cpp.o
+[ 50%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImage.cpp.o
+[ 52%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Rw2Decoder.cpp.o
+[ 54%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffIFD.cpp.o
+[ 56%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParser.cpp.o
+[ 58%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserHeaderless.cpp.o
+[ 60%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserOlympus.cpp.o
+[ 63%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataU16.cpp.o
+[ 65%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataFloat.cpp.o
+[ 67%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/SrwDecoder.cpp.o
+Linking CXX static library librawspeed.a
 make[2]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
 [100%] Built target rawspeed
 make[1]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
