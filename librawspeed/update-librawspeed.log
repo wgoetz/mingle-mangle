@@ -1,60 +1,52 @@
 Already up-to-date.
 Already up-to-date.
-Updating 7939c6c..40ef0d6
+Updating 4ccf2c0..14fa894
 Updating '.':
 U    data/cameras.xml
-U    RawSpeed/ByteStreamSwap.cpp
-U    RawSpeed/ByteStreamSwap.h
-U    RawSpeed/CameraMetaData.h
-U    RawSpeed/ByteStream.h
-U    RawSpeed/CameraMetaData.cpp
-U    RawSpeed/DngOpcodes.h
-U    RawSpeed/ByteStream.cpp
-U    RawSpeed/Camera.cpp
-Updated to revision 578.
-make: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
-make[1]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
-make[2]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+U    RawSpeed/Cr2Decoder.cpp
+U    RawSpeed/TiffIFD.cpp
+U    RawSpeed/LJpegPlain.cpp
+U    RawSpeed/TiffEntry.h
+U    RawSpeed/TiffParserHeaderless.cpp
+Updated to revision 598.
+make: Entering directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
+make[1]: Entering directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
+make[2]: Entering directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
 Scanning dependencies of target rawspeed
-make[2]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
-make[2]: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make[2]: Leaving directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
+make[2]: Entering directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
 [  2%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawParser.cpp.o
 [  4%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ArwDecoder.cpp.o
-[  6%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpJPEG.cpp.o
-[  8%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpMSB32.cpp.o
-[ 10%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpMSB.cpp.o
-[ 13%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/BitPumpPlain.cpp.o
-[ 15%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ByteStream.cpp.o
-[ 17%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/ByteStreamSwap.cpp.o
-[ 19%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Camera.cpp.o
-[ 21%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/CameraMetaData.cpp.o
-[ 23%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Cr2Decoder.cpp.o
-[ 26%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngOpcodes.cpp.o
-[ 28%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoder.cpp.o
-[ 30%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoderSlices.cpp.o
-[ 32%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegDecompressor.cpp.o
-[ 34%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegPlain.cpp.o
-[ 36%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NefDecoder.cpp.o
-[ 39%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NikonDecompressor.cpp.o
-[ 41%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/OrfDecoder.cpp.o
-[ 43%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PefDecoder.cpp.o
-[ 45%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PentaxDecompressor.cpp.o
-[ 47%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawDecoder.cpp.o
-[ 50%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImage.cpp.o
-[ 52%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Rw2Decoder.cpp.o
-[ 54%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffIFD.cpp.o
-[ 56%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParser.cpp.o
-[ 58%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserHeaderless.cpp.o
-[ 60%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserOlympus.cpp.o
-[ 63%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataU16.cpp.o
-[ 65%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataFloat.cpp.o
-[ 67%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/SrwDecoder.cpp.o
+[  6%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Cr2Decoder.cpp.o
+[  8%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngOpcodes.cpp.o
+[ 10%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoder.cpp.o
+[ 13%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/DngDecoderSlices.cpp.o
+[ 15%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegDecompressor.cpp.o
+[ 17%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/LJpegPlain.cpp.o
+[ 19%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NefDecoder.cpp.o
+[ 21%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/NikonDecompressor.cpp.o
+[ 23%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/OrfDecoder.cpp.o
+[ 26%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PefDecoder.cpp.o
+[ 28%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/PentaxDecompressor.cpp.o
+[ 30%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawDecoder.cpp.o
+[ 32%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImage.cpp.o
+[ 34%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/Rw2Decoder.cpp.o
+[ 36%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffEntryBE.cpp.o
+[ 39%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffEntry.cpp.o
+[ 41%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffIFDBE.cpp.o
+[ 43%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffIFD.cpp.o
+[ 45%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParser.cpp.o
+[ 47%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserHeaderless.cpp.o
+[ 50%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/TiffParserOlympus.cpp.o
+[ 52%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataU16.cpp.o
+[ 54%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawImageDataFloat.cpp.o
+[ 56%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/SrwDecoder.cpp.o
 Linking CXX static library librawspeed.a
-make[2]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
+make[2]: Leaving directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
 [100%] Built target rawspeed
-make[1]: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
-make: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/RawSpeed'
-make: Entering directory `/home/goetz/github/mingle-mangle/librawspeed/LibRaw'
+make[1]: Leaving directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
+make: Leaving directory `/home/goetz/repos/mingle-mangle/librawspeed/RawSpeed'
+make: Entering directory `/home/goetz/repos/mingle-mangle/librawspeed/LibRaw'
 ./rsxml2c.sh ../RawSpeed/data/cameras.xml > RawSpeed/rawspeed_xmldata.cpp
 g++ -c -DLIBRAW_NOTHREADS   -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o object/libraw_cxx.o src/libraw_cxx.cpp
 rm -f lib/libraw.a
@@ -66,13 +58,13 @@ a - object/libraw_c_api.o
 a - object/dcraw_fileio.o
 a - object/demosaic_packs.o
 ranlib lib/libraw.a
-g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/raw-identify samples/raw-identify.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/simple_dcraw samples/simple_dcraw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_emu samples/dcraw_emu.cpp -L./lib -lraw_r  -lm -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-gcc  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_half samples/dcraw_half.c -L./lib -lraw  -lm -lstdc++  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/mem_image samples/mem_image.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/unprocessed_raw samples/unprocessed_raw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/4channels samples/4channels.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/multirender_test samples/multirender_test.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/postprocessing_benchmark samples/postprocessing_benchmark.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -ljpeg -lxml2 -ljasper -ljpeg
-make: Leaving directory `/home/goetz/github/mingle-mangle/librawspeed/LibRaw'
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/raw-identify samples/raw-identify.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/simple_dcraw samples/simple_dcraw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_emu samples/dcraw_emu.cpp -L./lib -lraw_r  -lm -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+gcc  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/dcraw_half samples/dcraw_half.c -L./lib -lraw  -lm -lstdc++  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+g++  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/mem_image samples/mem_image.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/unprocessed_raw samples/unprocessed_raw.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/4channels samples/4channels.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/multirender_test samples/multirender_test.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/postprocessing_benchmark samples/postprocessing_benchmark.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
+make: Leaving directory `/home/goetz/repos/mingle-mangle/librawspeed/LibRaw'
