@@ -170,8 +170,9 @@ A    RawSpeed/RawSpeed/BitPumpMSB32.h
 A    RawSpeed/credits.txt
 A    RawSpeed/RawSpeed.kdevelop.filelist
  U   RawSpeed
-Checked out revision 571.
+Checked out revision 600.
 patching file RawSpeed/Common.cpp
+Hunk #1 succeeded at 56 (offset 25 lines).
 ~/repos/mingle-mangle/librawspeed/RawSpeed ~/repos/mingle-mangle/librawspeed
 -- The C compiler identification is GNU 4.7.3
 -- The CXX compiler identification is GNU 4.7.3
@@ -239,7 +240,6 @@ Linking CXX static library librawspeed.a
 ~/repos/mingle-mangle/librawspeed
 ~/repos/mingle-mangle/librawspeed/LibRaw ~/repos/mingle-mangle/librawspeed
 patching file Makefile.devel
-./internal/preprocess.pl -DDEFINES dcraw/dcraw.c  >internal/defines.h
 ./internal/preprocess.pl -N -DCOMMON dcraw/dcraw.c >internal/dcraw_common.cpp
 ./internal/preprocess.pl -DFILEIO dcraw/dcraw.c >internal/dcraw_fileio.cpp
 g++ -c -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3  -o object/dcraw_common.o internal/dcraw_common.cpp
@@ -285,15 +285,15 @@ g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -
 g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/postprocessing_benchmark samples/postprocessing_benchmark.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
 g++ -w -O4 -DLIBRAW_NOTHREADS -DNO_JPEG -DNO_LCMS -DNO_JASPER -o bin/dcraw_dist dcraw/dcraw.c -lm  
 ~/repos/mingle-mangle/librawspeed
-total 30988
--rwxrwxr-x 1 goetz goetz 3122935 Aug 30 12:15 4channels
--rwxrwxr-x 1 goetz goetz  355149 Aug 30 12:16 dcraw_dist
--rwxrwxr-x 1 goetz goetz 3177050 Aug 30 12:15 dcraw_emu
--rwxrwxr-x 1 goetz goetz 3139549 Aug 30 12:15 dcraw_half
--rwxrwxr-x 1 goetz goetz 3145890 Aug 30 12:15 half_mt
--rwxrwxr-x 1 goetz goetz 3122978 Aug 30 12:15 mem_image
--rwxrwxr-x 1 goetz goetz 3122920 Aug 30 12:15 multirender_test
--rwxrwxr-x 1 goetz goetz 3126241 Aug 30 12:15 postprocessing_benchmark
--rwxrwxr-x 1 goetz goetz 3127701 Aug 30 12:15 raw-identify
--rwxrwxr-x 1 goetz goetz 3122594 Aug 30 12:15 simple_dcraw
--rwxrwxr-x 1 goetz goetz 3142260 Aug 30 12:15 unprocessed_raw
+total 32028
+-rwxrwxr-x 1 goetz goetz 3229353 Oct  7 12:36 4channels
+-rwxrwxr-x 1 goetz goetz  355149 Oct  7 12:36 dcraw_dist
+-rwxrwxr-x 1 goetz goetz 3284194 Oct  7 12:36 dcraw_emu
+-rwxrwxr-x 1 goetz goetz 3246085 Oct  7 12:36 dcraw_half
+-rwxrwxr-x 1 goetz goetz 3252762 Oct  7 12:36 half_mt
+-rwxrwxr-x 1 goetz goetz 3229396 Oct  7 12:36 mem_image
+-rwxrwxr-x 1 goetz goetz 3229330 Oct  7 12:36 multirender_test
+-rwxrwxr-x 1 goetz goetz 3232659 Oct  7 12:36 postprocessing_benchmark
+-rwxrwxr-x 1 goetz goetz 3234151 Oct  7 12:36 raw-identify
+-rwxrwxr-x 1 goetz goetz 3229012 Oct  7 12:36 simple_dcraw
+-rwxrwxr-x 1 goetz goetz 3248670 Oct  7 12:36 unprocessed_raw

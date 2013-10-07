@@ -82,7 +82,7 @@ popd
 pushd LibRaw
 patch -p1 <<"EOF"
 diff --git a/Makefile.devel b/Makefile.devel
-index 354ad2e..92bbf39 100644
+index 3c31293..92bbf39 100644
 --- a/Makefile.devel
 +++ b/Makefile.devel
 @@ -8,13 +8,13 @@ CXX=g++
@@ -103,7 +103,7 @@ index 354ad2e..92bbf39 100644
  CFLAGS+= -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp
  # Haswell:
  #CFLAGS+=-march=core-avx2 -mtune=core-avx2 -mavx2
-@@ -26,12 +26,12 @@ CFLAGS+= -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp
+@@ -26,22 +26,22 @@ CFLAGS+= -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp
  #LDADD+=-L/usr/local/lib -llcms
  
  # Jasper support for RedCine
@@ -120,8 +120,11 @@ index 354ad2e..92bbf39 100644
  # LIBJPEG8:
  CFLAGS+=-DUSE_JPEG8
  
-@@ -40,8 +40,8 @@ DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL2
- CFLAGS+=-DLIBRAW_DEMOSAIC_PACK_GPL2
+ # Demosaic Pack GPL2:
+-#DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL2
+-#CFLAGS+=-DLIBRAW_DEMOSAIC_PACK_GPL2
++DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL2
++CFLAGS+=-DLIBRAW_DEMOSAIC_PACK_GPL2
  
  # Demosaic Pack GPL3:
 -#DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL3
