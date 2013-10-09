@@ -1,0 +1,16 @@
+<lensdatabase>
+
+	<lens>
+		<maker>WG FX</maker>
+		<model>Nikon AF Nikkor 20mm f/2.8D</model>
+		<focal value="20" />
+		<aperture value="2.8" />
+		<mount>Nikon F AF</mount>
+		<cropfactor>1</cropfactor>
+		<calibration>
+			<distortion focal="20" model="ptlens" a="0.04451" b="-0.12398" c="0.07825" />
+			<field_of_view focal="20" fov="61.9712" />
+		</calibration>
+	</lens>
+
+</lensdatabase>

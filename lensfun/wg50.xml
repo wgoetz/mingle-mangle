@@ -1,0 +1,16 @@
+<lensdatabase>
+
+	<lens>
+		<maker>WG FX</maker>
+		<model>Nikon AF Nikkor 50mm f/1.4</model>
+		<focal value="50" />
+		<aperture value="1.4" />
+		<mount>Nikon F AF</mount>
+		<cropfactor>1</cropfactor>
+		<calibration>
+			<distortion focal="50" model="ptlens" a="-0.00561" b="0.01962" c="-0.02514" />
+			<field_of_view focal="50" fov="27.014" />
+		</calibration>
+	</lens>
+
+</lensdatabase>

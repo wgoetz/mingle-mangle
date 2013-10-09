@@ -8,3 +8,7 @@ or this-and-that, assorted things, conglomerate. scripts, snippets,readme's,chea
 [synology NAS](synology/README.md)
 
 [whitebalance includes for ufraw/darktable](wb/README.md) 
+
+[lensfun db files](lensfun/README.md)
+
+[holux m241 to gpx](holux/README.md)

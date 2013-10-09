@@ -1,0 +1,16 @@
+<lensdatabase>
+
+	<lens>
+		<maker>WG FX</maker>
+		<model>Nikon AF Nikkor 24mm f/2.8</model>
+		<focal value="24" />
+		<aperture value="2.8" />
+		<mount>Nikon F AF</mount>
+		<cropfactor>1</cropfactor>
+		<calibration>
+			<distortion focal="24" model="ptlens" a="0.05684" b="-0.21062" c="0.23849" />
+			<field_of_view focal="24" fov="53.1697" />
+		</calibration>
+	</lens>
+
+</lensdatabase>
