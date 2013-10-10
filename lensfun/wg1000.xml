@@ -1,0 +1,17 @@
+<lensdatabase>
+
+    <lens>
+        <maker>WG FX</maker>
+        <model>Reflex NIKKOR 1000mm f/11</model>
+        <mount>Nikon F AI-S</mount>
+	<focal value="1000" />
+	<aperture value="11" />
+
+        <cropfactor>1</cropfactor>
+        <calibration>
+            <vignetting model="pa" focal="1000" aperture="11" distance="10" k1="-1.3347" k2="1.3638" k3="-0.5777" />
+            <vignetting model="pa" focal="1000" aperture="11" distance="1000" k1="-1.3347" k2="1.3638" k3="-0.5777" />
+        </calibration>
+    </lens>
+
+</lensdatabase>
