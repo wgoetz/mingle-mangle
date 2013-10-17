@@ -1,6 +1,9 @@
 Cloning into 'LibRaw'...
+Checking connectivity... done
 Cloning into 'LibRaw-demosaic-pack-GPL2'...
+Checking connectivity... done
 Cloning into 'LibRaw-demosaic-pack-GPL3'...
+Checking connectivity... done
 A    RawSpeed/RawSpeed.kdevelop
 A    RawSpeed/Doxyfile
 A    RawSpeed/include
@@ -170,12 +173,12 @@ A    RawSpeed/RawSpeed/BitPumpMSB32.h
 A    RawSpeed/credits.txt
 A    RawSpeed/RawSpeed.kdevelop.filelist
  U   RawSpeed
-Checked out revision 600.
+Checked out revision 603.
 patching file RawSpeed/Common.cpp
 Hunk #1 succeeded at 56 (offset 25 lines).
-~/repos/mingle-mangle/librawspeed/RawSpeed ~/repos/mingle-mangle/librawspeed
--- The C compiler identification is GNU 4.7.3
--- The CXX compiler identification is GNU 4.7.3
+~/github/mingle-mangle/librawspeed/RawSpeed ~/github/mingle-mangle/librawspeed
+-- The C compiler identification is GNU 4.8.1
+-- The CXX compiler identification is GNU 4.8.1
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -184,10 +187,10 @@ Hunk #1 succeeded at 56 (offset 25 lines).
 -- Check for working CXX compiler: /usr/bin/c++ -- works
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found suitable version "2.9.0", minimum required is "2.6") 
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found suitable version "2.9.1", minimum required is "2.6") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/goetz/repos/mingle-mangle/librawspeed/RawSpeed
+-- Build files have been written to: /home/goetz/github/mingle-mangle/librawspeed/RawSpeed
 Scanning dependencies of target rawspeed
 [  2%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/CameraSensorInfo.cpp.o
 [  4%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/RawParser.cpp.o
@@ -237,8 +240,8 @@ Scanning dependencies of target rawspeed
 [100%] Building CXX object CMakeFiles/rawspeed.dir/RawSpeed/SrwDecoder.cpp.o
 Linking CXX static library librawspeed.a
 [100%] Built target rawspeed
-~/repos/mingle-mangle/librawspeed
-~/repos/mingle-mangle/librawspeed/LibRaw ~/repos/mingle-mangle/librawspeed
+~/github/mingle-mangle/librawspeed
+~/github/mingle-mangle/librawspeed/LibRaw ~/github/mingle-mangle/librawspeed
 patching file Makefile.devel
 ./internal/preprocess.pl -N -DCOMMON dcraw/dcraw.c >internal/dcraw_common.cpp
 ./internal/preprocess.pl -DFILEIO dcraw/dcraw.c >internal/dcraw_fileio.cpp
@@ -284,16 +287,16 @@ g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -
 g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/multirender_test samples/multirender_test.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
 g++ -DLIBRAW_NOTHREADS  -DUSE_RAWSPEED -I../RawSpeed -I/usr/include/libxml2 -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp -DUSE_JASPER -DUSE_JPEG -DUSE_JPEG8 -DLIBRAW_DEMOSAIC_PACK_GPL2 -DLIBRAW_DEMOSAIC_PACK_GPL3 -o bin/postprocessing_benchmark samples/postprocessing_benchmark.cpp -L./lib -lraw  -lm  -L../RawSpeed -lrawspeed -L/usr/local/include -ljpeg -lxml2 -ljasper -ljpeg
 g++ -w -O4 -DLIBRAW_NOTHREADS -DNO_JPEG -DNO_LCMS -DNO_JASPER -o bin/dcraw_dist dcraw/dcraw.c -lm  
-~/repos/mingle-mangle/librawspeed
-total 32028
--rwxrwxr-x 1 goetz goetz 3229353 Oct  7 12:36 4channels
--rwxrwxr-x 1 goetz goetz  355149 Oct  7 12:36 dcraw_dist
--rwxrwxr-x 1 goetz goetz 3284194 Oct  7 12:36 dcraw_emu
--rwxrwxr-x 1 goetz goetz 3246085 Oct  7 12:36 dcraw_half
--rwxrwxr-x 1 goetz goetz 3252762 Oct  7 12:36 half_mt
--rwxrwxr-x 1 goetz goetz 3229396 Oct  7 12:36 mem_image
--rwxrwxr-x 1 goetz goetz 3229330 Oct  7 12:36 multirender_test
--rwxrwxr-x 1 goetz goetz 3232659 Oct  7 12:36 postprocessing_benchmark
--rwxrwxr-x 1 goetz goetz 3234151 Oct  7 12:36 raw-identify
--rwxrwxr-x 1 goetz goetz 3229012 Oct  7 12:36 simple_dcraw
--rwxrwxr-x 1 goetz goetz 3248670 Oct  7 12:36 unprocessed_raw
+~/github/mingle-mangle/librawspeed
+total 27996
+-rwxr-xr-x 1 goetz goetz 2822059 Okt 18 00:28 4channels
+-rwxr-xr-x 1 goetz goetz  346954 Okt 18 00:29 dcraw_dist
+-rwxr-xr-x 1 goetz goetz 2868244 Okt 18 00:28 dcraw_emu
+-rwxr-xr-x 1 goetz goetz 2834775 Okt 18 00:28 dcraw_half
+-rwxr-xr-x 1 goetz goetz 2837477 Okt 18 00:28 half_mt
+-rwxr-xr-x 1 goetz goetz 2818902 Okt 18 00:28 mem_image
+-rwxr-xr-x 1 goetz goetz 2818900 Okt 18 00:28 multirender_test
+-rwxr-xr-x 1 goetz goetz 2821589 Okt 18 00:28 postprocessing_benchmark
+-rwxr-xr-x 1 goetz goetz 2819913 Okt 18 00:28 raw-identify
+-rwxr-xr-x 1 goetz goetz 2818742 Okt 18 00:28 simple_dcraw
+-rwxr-xr-x 1 goetz goetz 2837880 Okt 18 00:28 unprocessed_raw
