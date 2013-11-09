@@ -82,9 +82,15 @@ popd
 pushd LibRaw
 patch -p1 <<"EOF"
 diff --git a/Makefile.devel b/Makefile.devel
-index 3c31293..92bbf39 100644
+index 354ad2e..13c70e6 100644
 --- a/Makefile.devel
 +++ b/Makefile.devel
+@@ -1,4 +1,4 @@
+-all: sources library all_samples dcraw_binaries
++all: sources library all_samples #dcraw_binaries
+ 
+ PP=./internal/preprocess.pl
+ 
 @@ -8,13 +8,13 @@ CXX=g++
  CFLAGS=
  
@@ -103,43 +109,12 @@ index 3c31293..92bbf39 100644
  CFLAGS+= -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp
  # Haswell:
  #CFLAGS+=-march=core-avx2 -mtune=core-avx2 -mavx2
-@@ -26,22 +26,22 @@ CFLAGS+= -g -I. -pedantic  -Wno-long-long -Wno-overflow  -O4 -fopenmp
- #LDADD+=-L/usr/local/lib -llcms
- 
- # Jasper support for RedCine
--CFLAGS+=-DUSE_JASPER -I/usr/local/include
--LDADD+=-L/usr/local/lib -ljasper
-+CFLAGS+=-DUSE_JASPER
-+LDADD+=-ljasper
- 
- # JPEG support for DNG
--CFLAGS+=-DUSE_JPEG -I/usr/local/include
--LDADD+=-L/usr/local/lib -ljpeg
-+CFLAGS+=-DUSE_JPEG
-+LDADD+=-ljpeg
- # LIBJPEG8:
- CFLAGS+=-DUSE_JPEG8
- 
- # Demosaic Pack GPL2:
--#DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL2
--#CFLAGS+=-DLIBRAW_DEMOSAIC_PACK_GPL2
-+DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL2
-+CFLAGS+=-DLIBRAW_DEMOSAIC_PACK_GPL2
- 
- # Demosaic Pack GPL3:
--#DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL3
--#CFLAGS+=-DLIBRAW_DEMOSAIC_PACK_GPL3
-+DPCFLAGS+=-I../LibRaw-demosaic-pack-GPL3
-+CFLAGS+=-DLIBRAW_DEMOSAIC_PACK_GPL3
- 
- DCRAW_GEN= internal/dcraw_common.cpp internal/dcraw_fileio.cpp
- DCRAW_LIB_OBJECTS=object/dcraw_common.o object/libraw_cxx.o object/libraw_datastream.o object/libraw_c_api.o object/dcraw_fileio.o object/demosaic_packs.o
 @@ -101,7 +101,7 @@ bin/dcraw_emu: lib/libraw.a samples/dcraw_emu.cpp
  dcraw_binaries: bin/dcraw_dist
  
  bin/dcraw_dist: dcraw/dcraw.c Makefile.devel
 -	$(CXX) -w -O4 -DLIBRAW_NOTHREADS -DNO_JPEG -DNO_LCMS -DNO_JASPER -I/usr/local/include -o bin/dcraw_dist dcraw/dcraw.c -lm -L/usr/local/lib 
-+	$(CXX) -w -O4 -DLIBRAW_NOTHREADS -DNO_JPEG -DNO_LCMS -DNO_JASPER -o bin/dcraw_dist dcraw/dcraw.c -lm  
++	$(CXX) -w -O4 -DLIBRAW_NOTHREADS -DNO_JPEG -DNO_LCMS -DNO_JASPER -o bin/dcraw_dist dcraw/dcraw.c -lm
  
  regenerate:
  	${PP} -N -DDEFINES dcraw/dcraw.c  >internal/defines.h
